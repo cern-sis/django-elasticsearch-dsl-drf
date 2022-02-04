@@ -2,7 +2,7 @@
 The ``post_filter`` filtering backend.
 """
 
-from django_elasticsearch_dsl import fields
+from django_opensearch_dsl import fields
 
 from six import string_types
 

@@ -77,8 +77,8 @@ Sample document
 
 .. code-block:: python
 
-    from django_elasticsearch_dsl import Document, Index, fields
-    from elasticsearch_dsl import analyzer
+    from django_opensearch_dsl import Document, Index, fields
+    from opensearch_dsl import analyzer
 
     from books.models import Publisher
 

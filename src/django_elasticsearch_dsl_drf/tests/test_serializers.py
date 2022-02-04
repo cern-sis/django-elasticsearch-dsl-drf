@@ -9,7 +9,7 @@ import unittest
 from django.contrib.auth.models import User
 from django.core.exceptions import ImproperlyConfigured
 
-from django_elasticsearch_dsl import Document, Index, fields
+from django_opensearch_dsl import Document, Index, fields
 from django_elasticsearch_dsl_drf.compat import KeywordField, StringField
 
 import pytest

@@ -6,7 +6,7 @@ properly indexed using ``fields.CompletionField``.
 
 Example:
 
-    >>> from django_elasticsearch_dsl import Document, Index, fields
+    >>> from django_opensearch_dsl import Document, Index, fields
     >>>
     >>> from books.models import Publisher
     >>>
@@ -67,7 +67,7 @@ Example:
     >>>
     >>>         model = Publisher  # The model associate with this Document
 """
-from elasticsearch_dsl.search import AggsProxy
+from opensearch_dsl.search import AggsProxy
 
 from django_elasticsearch_dsl_drf.constants import (
     FUNCTIONAL_SUGGESTER_TERM_MATCH,

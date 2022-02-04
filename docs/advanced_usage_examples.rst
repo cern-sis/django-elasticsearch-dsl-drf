@@ -229,8 +229,8 @@ Document index
 .. code-block:: python
 
     from django.conf import settings
-    from django_elasticsearch_dsl import Document, Index, fields
-    from elasticsearch_dsl import analyzer
+    from django_opensearch_dsl import Document, Index, fields
+    from opensearch_dsl import analyzer
 
     from books.models import Book
 
@@ -692,7 +692,7 @@ view set in the following way:
 
     # ...
 
-    from elasticsearch_dsl import (
+    from opensearch_dsl import (
         DateHistogramFacet,
         RangeFacet,
         TermsFacet,
@@ -779,7 +779,7 @@ as the two backends it replaces.
 
     # ...
 
-    from elasticsearch_dsl import (
+    from opensearch_dsl import (
         DateHistogramFacet,
         RangeFacet,
         TermsFacet,
@@ -1106,7 +1106,7 @@ documents using ``fields.CompletionField``.
 
     from django.conf import settings
 
-    from django_elasticsearch_dsl import Document, Index, fields
+    from django_opensearch_dsl import Document, Index, fields
 
     from books.models import Publisher
 
@@ -1660,7 +1660,7 @@ Document definition
 
     from django.conf import settings
 
-    from django_elasticsearch_dsl import Document, Index, fields
+    from django_opensearch_dsl import Document, Index, fields
 
     from books.models import Book
 
@@ -2170,10 +2170,10 @@ The following example indicates Ngram analyzer/filter usage.
 .. code-block:: python
 
     from django.conf import settings
-    from django_elasticsearch_dsl import Document, Index, fields
+    from django_opensearch_dsl import Document, Index, fields
 
-    from elasticsearch_dsl import analyzer
-    from elasticsearch_dsl.analysis import token_filter
+    from opensearch_dsl import analyzer
+    from opensearch_dsl.analysis import token_filter
 
     from books.models import Book
 

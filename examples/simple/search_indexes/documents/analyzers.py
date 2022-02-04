@@ -1,4 +1,4 @@
-from elasticsearch_dsl import analyzer
+from opensearch_dsl import analyzer
 from django_elasticsearch_dsl_drf.versions import ELASTICSEARCH_GTE_7_0
 
 __all__ = (

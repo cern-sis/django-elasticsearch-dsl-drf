@@ -6,7 +6,7 @@ properly indexed using ``fields.CompletionField``.
 
 Example:
 
-    >>> from django_elasticsearch_dsl import Document, Index, fields
+    >>> from django_opensearch_dsl import Document, Index, fields
     >>>
     >>> from books.models import Publisher
     >>>

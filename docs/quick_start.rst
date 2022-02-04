@@ -388,8 +388,8 @@ Required imports
 .. code-block:: python
 
     from django.conf import settings
-    from django_elasticsearch_dsl import Document, Index, fields
-    from elasticsearch_dsl import analyzer
+    from django_opensearch_dsl import Document, Index, fields
+    from opensearch_dsl import analyzer
 
     from books.models import Book
 
@@ -603,7 +603,7 @@ Required imports
     from django.db.models.signals import post_save, post_delete
     from django.dispatch import receiver
 
-    from django_elasticsearch_dsl.registries import registry
+    from django_opensearch_dsl.registries import registry
 
 Update book index on related model change
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

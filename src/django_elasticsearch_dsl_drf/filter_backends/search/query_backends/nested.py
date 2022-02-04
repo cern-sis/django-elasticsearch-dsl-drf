@@ -1,7 +1,7 @@
 import operator
 import six
 
-from elasticsearch_dsl.query import Q
+from opensearch_dsl.query import Q
 
 from .base import BaseSearchQueryBackend
 

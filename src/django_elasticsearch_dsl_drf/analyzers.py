@@ -1,8 +1,8 @@
 """
 Analyzers.
 """
-from elasticsearch_dsl import analyzer
-from elasticsearch_dsl.analysis import token_filter
+from opensearch_dsl import analyzer
+from opensearch_dsl.analysis import token_filter
 
 __title__ = 'django_elasticsearch_dsl_drf.analyzers'
 __author__ = 'Artur Barseghyan <artur.barseghyan@gmail.com>'

@@ -1,6 +1,6 @@
 from django.conf import settings
 
-from django_elasticsearch_dsl import Document, Index, fields
+from django_opensearch_dsl import Document, Index, fields
 from django_elasticsearch_dsl_drf.compat import KeywordField, StringField
 
 from books.models import City

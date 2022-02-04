@@ -5,8 +5,8 @@ Search backend. Most likely to be deprecated soon.
 import operator
 import warnings
 
-from django_elasticsearch_dsl import fields
-from elasticsearch_dsl.query import Q
+from django_opensearch_dsl import fields
+from opensearch_dsl.query import Q
 from rest_framework.filters import BaseFilterBackend
 from rest_framework.settings import api_settings
 import six

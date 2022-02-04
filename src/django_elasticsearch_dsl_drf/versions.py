@@ -26,7 +26,7 @@ def get_elasticsearch_version(default=(2, 0, 0)):
     :rtype: list
     """
     try:
-        from elasticsearch_dsl import __version__
+        from opensearch_dsl import __version__
         return __version__
     except ImportError:
         return default
