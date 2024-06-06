@@ -5,9 +5,9 @@ from collections import OrderedDict
 
 from django_opensearch_dsl.registries import registry
 
-from opensearch_dsl import Search
-from opensearch_dsl.connections import connections
-from opensearch_dsl.query import MoreLikeThis
+from opensearchpy import Search
+from opensearchpy.connections import connections
+from opensearchpy.query import MoreLikeThis
 
 from six import PY3
 

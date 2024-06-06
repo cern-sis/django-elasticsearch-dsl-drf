@@ -230,7 +230,7 @@ Document index
 
     from django.conf import settings
     from django_opensearch_dsl import Document, Index, fields
-    from opensearch_dsl import analyzer
+    from opensearchpy import analyzer
 
     from books.models import Book
 
@@ -692,7 +692,7 @@ view set in the following way:
 
     # ...
 
-    from opensearch_dsl import (
+    from opensearchpy import (
         DateHistogramFacet,
         RangeFacet,
         TermsFacet,
@@ -779,7 +779,7 @@ as the two backends it replaces.
 
     # ...
 
-    from opensearch_dsl import (
+    from opensearchpy import (
         DateHistogramFacet,
         RangeFacet,
         TermsFacet,
@@ -2172,8 +2172,8 @@ The following example indicates Ngram analyzer/filter usage.
     from django.conf import settings
     from django_opensearch_dsl import Document, Index, fields
 
-    from opensearch_dsl import analyzer
-    from opensearch_dsl.analysis import token_filter
+    from opensearchpy import analyzer
+    from opensearchpy.analysis import token_filter
 
     from books.models import Book
 

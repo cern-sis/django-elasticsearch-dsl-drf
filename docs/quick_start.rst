@@ -389,7 +389,7 @@ Required imports
 
     from django.conf import settings
     from django_opensearch_dsl import Document, Index, fields
-    from opensearch_dsl import analyzer
+    from opensearchpy import analyzer
 
     from books.models import Book
 

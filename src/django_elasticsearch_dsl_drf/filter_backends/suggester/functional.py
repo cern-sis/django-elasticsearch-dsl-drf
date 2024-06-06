@@ -67,7 +67,7 @@ Example:
     >>>
     >>>         model = Publisher  # The model associate with this Document
 """
-from opensearch_dsl.search import AggsProxy
+from opensearchpy.search import AggsProxy
 
 from django_elasticsearch_dsl_drf.constants import (
     FUNCTIONAL_SUGGESTER_TERM_MATCH,
