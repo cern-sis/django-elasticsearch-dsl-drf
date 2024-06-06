@@ -9,7 +9,7 @@ from collections import OrderedDict
 
 from django.core import paginator as django_paginator
 
-from opensearch_dsl.utils import AttrDict
+from opensearchpy.utils import AttrDict
 
 from rest_framework import pagination
 from rest_framework.exceptions import NotFound

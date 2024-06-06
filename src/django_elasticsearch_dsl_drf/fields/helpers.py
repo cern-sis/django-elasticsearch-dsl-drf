@@ -1,7 +1,7 @@
 """
 Helpers.
 """
-from opensearch_dsl.utils import AttrDict, AttrList
+from opensearchpy.utils import AttrDict, AttrList
 
 __title__ = 'django_elasticsearch_dsl_drf.fields.helpers'
 __author__ = 'Artur Barseghyan <artur.barseghyan@gmail.com>'

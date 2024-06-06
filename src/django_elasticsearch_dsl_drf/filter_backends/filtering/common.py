@@ -4,7 +4,7 @@ Common filtering backend.
 
 import operator
 
-from opensearch_dsl.query import Q
+from opensearchpy.query import Q
 from rest_framework.filters import BaseFilterBackend
 from django_opensearch_dsl import fields
 

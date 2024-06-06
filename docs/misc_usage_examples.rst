@@ -27,7 +27,7 @@ Customize results as follows:
 .. code-block:: python
 
     from django_elasticsearch_dsl_drf.helpers import more_like_this
-    from opensearch_dsl.query import Q
+    from opensearchpy.query import Q
     from books.models import Book
     book = Book.objects.first()
     query = Q('bool', must_not=Q('term', **{'state.raw': 'cancelled'}))

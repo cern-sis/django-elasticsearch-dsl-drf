@@ -1,7 +1,7 @@
 import operator
 import six
 
-from opensearch_dsl.query import Q
+from opensearchpy.query import Q
 
 from .base import BaseSearchQueryBackend
 
